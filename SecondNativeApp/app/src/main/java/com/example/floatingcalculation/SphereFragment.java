@@ -42,7 +42,7 @@ public class SphereFragment extends Fragment {
                     double number = Double.parseDouble(textNumber.getText().toString());
                     txtContainer.setVisibility(View.VISIBLE);
                     txtNameAlgorithm.setText("Phép tính dấu phẩy động: Tính thể tích hình cầu(C++)");
-                    txtNumberCheck.setText("Số kiểm tra: " + number);
+                    txtNumberCheck.setText("Bán kính: " + number);
                     txtTime.setText("Thời gian thực thi: " + nativeLibrary.calVolumeSphere(number) + "ms");
                 }
             }
@@ -55,7 +55,7 @@ public class SphereFragment extends Fragment {
                     double number = Double.parseDouble(textNumber.getText().toString());
                     txtContainer.setVisibility(View.VISIBLE);
                     txtNameAlgorithm.setText("Phép tính dấu phẩy động: Tính thể tích hình cầu(Java)");
-                    txtNumberCheck.setText("Số kiểm tra: " + number);
+                    txtNumberCheck.setText("Bán kính: " + number);
                     txtTime.setText("Thời gian thực thi: " + javaLibrary.calVolumeSphere(number) + "ms");
                 }
             }

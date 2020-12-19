@@ -43,7 +43,7 @@ public class SinAndCosFragment extends Fragment {
                     double number = Double.parseDouble(textNumber.getText().toString());
                     txtContainer.setVisibility(View.VISIBLE);
                     txtNameAlgorithm.setText("Phép tính dấu phẩy động: Tính sin và cos(C++)");
-                    txtNumberCheck.setText("Số kiểm tra: " + number);
+                    txtNumberCheck.setText("Góc: " + number);
                     txtTime.setText("Thời gian thực thi: " + nativeLibrary.calSinAndCos(number) + "ms");
                 }
             }
@@ -56,7 +56,7 @@ public class SinAndCosFragment extends Fragment {
                     double number = Double.parseDouble(textNumber.getText().toString());
                     txtContainer.setVisibility(View.VISIBLE);
                     txtNameAlgorithm.setText("Phép tính dấu phẩy động: Tính sin và cos(Java)");
-                    txtNumberCheck.setText("Số kiểm tra: " + number);
+                    txtNumberCheck.setText("Góc: " + number);
                     txtTime.setText("Thời gian thực thi: " + javaLibrary.calSinAndCos(number) + "ms");
                 }
             }
