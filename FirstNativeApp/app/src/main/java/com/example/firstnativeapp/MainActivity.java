@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.navigation_square:
                             fragment = new SquareFragment();
                             break;
+                        case R.id.navigation_sin_cos:
+                            fragment = new SinAndCosFragment();
+                            break;
+                        case R.id.navigation_volume:
+                            fragment = new SphereFragment();
+                            break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
                     return true;

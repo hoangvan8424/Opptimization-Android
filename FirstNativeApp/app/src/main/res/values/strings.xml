@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirstNativeApp</string>
+    <string name="app_name">NativeApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

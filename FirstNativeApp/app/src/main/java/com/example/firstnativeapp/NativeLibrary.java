@@ -11,4 +11,6 @@ public class NativeLibrary {
      */
     public native int checkPrime(long number);
     public native int squareArea(long number);
+    public native int calSinAndCos(double radian);
+    public native int calVolumeSphere(double r);
 }

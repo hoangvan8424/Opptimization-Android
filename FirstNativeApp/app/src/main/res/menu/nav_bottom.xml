@@ -9,4 +9,13 @@
         android:id="@+id/navigation_square"
         android:title="Diện tích hình vuông"
         android:icon="@drawable/ic_baseline_crop_square_24"/>
+    <item
+        android:id="@+id/navigation_sin_cos"
+        android:title="Sin và cos"
+        android:icon="@drawable/ic_baseline_casino_24"/>
+
+    <item
+        android:id="@+id/navigation_volume"
+        android:title="Thể tích hình cầu"
+        android:icon="@drawable/ic_baseline_brightness_1_24"/>
 </menu>
